@@ -1,0 +1,64 @@
+body{
+    background-color: azure;
+}
+
+#centrado{
+    text-align: center;
+    text-decoration-line:underline;
+}
+
+
+#appBg{
+    height: 540px;
+    width: 100px;
+    border-radius: 1px;
+    border-radius: 5px;
+    margin: auto;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* #appBg form{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+} */
+
+#appBg input[type=textfield]{
+    width: 94%;
+    height: 100%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+
+}
+
+#appBg input[type=button], input[type=reset]{
+    width: 20%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 10%;
+}
+
+#appBg .orange{
+    background-color: rgb(253, 149, 3);
+    color: white !important;
+}
+
+#appBg .gray{
+    background-color: rgb(51,51,51);
+    color: white !important;
+}
